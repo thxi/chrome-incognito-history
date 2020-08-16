@@ -1,6 +1,6 @@
 {
   "name": "Chrome Incognito History",
-  "description": "Pres Alt+T to open the closed tab in incognito",
+  "description": "Press Alt+T to reopen closed tabs in incognito",
   "version": "1.0",
   "manifest_version": 2,
   "permissions": ["tabs"],
@@ -10,7 +10,7 @@
   },
   "browser_action": {
     "default_icon": "images/logo16.png",
-    "default_title": "Pres Alt+T to open the closed tab in incognito"
+    "default_title": "Press Alt+T to reopen closed tabs in incognito"
   },
   "commands": {
     "open-last-tab": {
